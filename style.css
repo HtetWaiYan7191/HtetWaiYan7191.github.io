@@ -2,4 +2,157 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Space Mono', monospace;
+}
+
+#nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem 3rem;
+}
+
+#logo-image {
+  width: 5rem;
+  height: 1.25rem;
+}
+
+#vector-image {
+  border: 2px solid rgb(92, 54, 166);
+  width: auto;
+  height: 30px;
+}
+
+main {
+  margin-top: 10rem;
+  background-image: url(./Images/header-background-mobile.png);
+  height: 100vh;
+}
+
+/* MAIN SECTION START  */
+#main-header {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 130%;
+  display: flex;
+  color: #172b4d;
+  width: 20rem;
+  height: 10rem;
+  align-items: center;
+  margin: 0.75rem 1.5rem 0.75rem;
+}
+
+#link {
+  font-family: 'Poppins', sans-serif;
+  color: #7f8cff;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 150%;
+  margin-left: 1.5rem;
+}
+
+article p {
+  width: 20rem;
+  height: 10rem;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 150%;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0.75rem 1.5rem 0.75rem;
+  color: #344563;
+}
+
+.fa-bars {
+  color: #6070ff;
+}
+
+#linkedin-container {
+  margin-left: 10px;
+  position: relative;
+}
+
+#o-png {
+  position: absolute;
+  left: -7px;
+  top: -4px;
+}
+
+#I-png {
+  position: absolute;
+  left: -7px;
+  top: 3px;
+}
+
+#social-links {
+  margin-left: 1.5rem;
+  margin-top: 0.75rem;
+}
+
+.social-links-img {
+  height: 1.25rem;
+  margin-right: 0.5rem;
+}
+
+#ellipse-5 {
+  position: absolute;
+  left: 136.98px;
+  top: 159.81px;
+}
+
+#rectangle-7 {
+  position: absolute;
+  left: 137.18px;
+  top: 151.59px;
+}
+
+#first-image {
+  left: -1.96px;
+  top: 128.47px;
+  position: absolute;
+}
+
+#rectangle-4 {
+  position: absolute;
+  left: 294px;
+  top: 128.79px;
+}
+
+#ellipse-3 {
+  position: absolute;
+  left: 323px;
+  top: 152.24px;
+}
+
+#ellipse-12 {
+  position: absolute;
+  top: 568px;
+  left: 334px;
+}
+
+#ellipse-13 {
+  position: absolute;
+  top: 580px;
+  left: 321px;
+}
+
+#ellipse-4 {
+  position: absolute;
+  left: 237px;
+  top: 738.1px;
+}
+
+#rectangle-5 {
+  position: absolute;
+  left: 191.82px;
+  top: 738px;
 }
