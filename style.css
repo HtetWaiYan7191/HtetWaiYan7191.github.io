@@ -88,7 +88,7 @@
     margin-top: 1rem;
   }
 
-  #link {
+  .link {
     font-family: 'Poppins', sans-serif;
     color: #7f8cff;
     font-style: normal;
@@ -147,6 +147,267 @@
     height: 1.25rem;
     margin-right: 0.5rem;
   }
+
+  /* WORK SECTION START  */
+  .project-section{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 100px 24px;
+    margin-top: 40px;
+  }
+
+  figure{
+    margin: auto;
+  }
+
+  #snap-shot-image{
+    width: 295px;
+    height: 200px;
+  }
+
+  .project-showing{
+    padding: 20px 24px;
+  }
+
+  #project-showing h2{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 44px;
+color: #172B4D;
+margin-top: 12px;
+  }
+
+  .experience{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 20px;
+
+  }
+
+  #canopy-text{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 16px;
+color: #344563 !important;
+  }
+
+
+  .experience li {
+    margin-right: 10px;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 16px;
+list-style: none;
+color: #7A869A;
+
+  }
+
+  .skill-buttons{
+    margin-top: 16px;
+  }
+
+  .info-text{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 24px;
+color: #344563;
+margin-top: 20px;
+  }
+
+  .skill-buttons button{
+    color: #6070FF;
+    padding: 4px 12px;
+    background-color: #EBEBFF;
+    border: none;
+    border-radius: 8px;
+    border-color: white;
+    outline: none;
+  }
+
+  .view-project-button {
+    margin-top: 35px;
+    
+  }
+  .counter-img{
+    margin-right: 12px;
+  }
+
+  .view-project-button button{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    color: #396DF2;
+    padding: 15px 20px ;
+    border-radius: 16px;
+    background-color: #FFFFFF;
+    border-color: #396DF2;
+  }
+
+  /* ABOUT MYSELF SECTION START  */
+  #about-myself-section {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 100px 24px;
+    margin-top: 40px;
+  }
+
+  #about-myself-section h2{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 52px;
+color: #172B4D;
+  }
+
+  #about-text{
+    font-size: 16px !important;
+    color: #344563;
+  }
+
+  #about-myself-social-links{
+    margin-top: 29px !important;
+  }
+
+  #about-myself-link{
+    margin-top: 12px;
+  }
+
+  /* LANGUAGE SECTION START  */
+
+  #language-section {
+     height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 100px 24px;
+    margin-top: 40px;
+    margin-left: 36px;
+    justify-content: center;
+  }
+
+  #language-header{
+    display: flex;
+    justify-content: space-between;
+  }
+  #language-header h2{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+color: #000000;
+margin-bottom: 36px;
+
+  }
+  .fa-chevron-down{
+
+  }
+
+  #skills-container-box{
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .skills{
+    padding: 10px;
+    background: #F7F7F9;
+    border-radius: 8px;
+    margin-top: 12px;
+    display: flex;
+    padding: 18px 12px;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .skills img{
+
+  }
+
+  .skills span{
+    width: 212px ;
+    padding: 15px 10px;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 20px;
+  }
+
+  .framework-skill{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+
+  .framework-skill h2{
+
+  }
+
+  .framework-skill img{
+    height: 12px;
+  }
+
+  #framework-container{
+    margin-top: 36px;
+  }
+  #separator-img{
+    margin: 23px 0px;
+  }
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
 /* DESKTOP VERSION */
@@ -204,7 +465,7 @@
     margin-left: 0;
   }
 
-  #intro-text {
+  #info-text {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -213,10 +474,9 @@
     height: 100px;
     color: #344563;
     width: 100%;
-    margin-bottom: 20px;
   }
 
-  #link {
+  .link {
     font-family: 'Poppins', sans-serif;
     color: #7f8cff;
     font-style: normal;
