@@ -96,7 +96,6 @@
     font-size: 1rem;
     line-height: 150%;
     margin-top: 5px;
-    
   }
 
   #intro-text {
@@ -187,12 +186,12 @@
 
   #main-container {
     display: flex;
-    justify-content:flex-start;
-    width:60%;
+    justify-content: flex-start;
+    width: 60%;
     margin: auto;
   }
 
-  #text-container{
+  #text-container {
     /* width: 960px; */
   }
 
@@ -202,10 +201,10 @@
     text-align: left;
     margin-top: 1rem;
     margin-bottom: 0.5rem;
-    margin-left: 0px;
+    margin-left: 0;
   }
 
-  #intro-text{
+  #intro-text {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -217,7 +216,6 @@
     margin-bottom: 20px;
   }
 
-
   #link {
     font-family: 'Poppins', sans-serif;
     color: #7f8cff;
@@ -225,6 +223,6 @@
     font-weight: 500;
     font-size: 1rem;
     line-height: 150%;
-    margin-top: 0px;
+    margin-top: 0;
   }
 }
