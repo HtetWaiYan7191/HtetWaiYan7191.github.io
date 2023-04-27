@@ -18,21 +18,20 @@
     align-items: center;
     background-image: url(./Images/header-background-mobile.png);
     position: sticky;
-    top: 0px;
+    top: 0;
     z-index: 4;
     padding-top: 20px;
-    
   }
 
-  #side-navbar-container{
+  #side-navbar-container {
     display: none;
   }
 
-  #union-img:hover{
+  #union-img:hover {
     opacity: 0.8;
   }
 
-  #union-img:active{
+  #union-img:active {
     opacity: 3;
   }
 
@@ -51,20 +50,17 @@
     height: 100vh;
     background-image: url(./Images/header-shapes\ mobile.png);
     background-size: cover;
-    
-    
   }
 
-  #main-container{
+  #main-container {
     display: flex;
     flex-direction: column;
     width: 70%;
     margin: auto;
     padding-top: 100px;
-
   }
 
-  
+
 
   /* MAIN SECTION START  */
   #main-header {
@@ -137,11 +133,10 @@
     height: 1.25rem;
     margin-right: 0.5rem;
   }
-
 }
 
 /* DESKTOP VERSION */
-@media only screen and (min-width:768px){
+@media only screen and (min-width: 768px) {
   #nav-bar {
     display: flex;
     width: 80%;
@@ -150,54 +145,51 @@
     align-items: center;
     background-image: url(./Images/header-background-mobile.png);
     position: sticky;
-    top: 0px;
+    top: 0;
     z-index: 4;
     padding-top: 20px;
+  }
+
+  #union-img {
+    display: none;
+  }
+
+  #side-navbar-container {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    width: 300px;
+  }
+
+  #side-navbar-container li {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #344563;
+  }
+
+  #main-container {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+  }
+
+  #main-header {
+    width: 400px;
+    height: 122px;
+    text-align: left;
+  }
+
+  article p {
+    width: 750px;
+    height: 98px;
+    margin: -0.25rem 1.5rem -4.25rem;
+  }
+
+  #link {
+    margin-top: 55px;
+  }
 }
-#union-img{
-  display: none;
-}
-
-#side-navbar-container{
-  display: flex;
-  justify-content: space-around;
-  list-style: none;
-  width: 300px;
-}
-
-#side-navbar-container li{
-  font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 15px;
-line-height: 20px;
-color: #344563;
-}
-
-#main-container{
-  display: flex;
-  justify-content: center;
-  width: 80%;
-  margin: auto;
-
-}
-
-#main-header{
-width: 400px;
-height: 122px;
-text-align: left;
-
-}
-
-article p {
-  width: 750px;
-height: 98px;
-margin: -0.25rem 1.5rem -4.25rem;
-}
-
-#link{
-  margin-top: 55px;
-}
-
-}
-
