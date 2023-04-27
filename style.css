@@ -11,9 +11,24 @@
 @media only screen and (min-width: 375px) {
   #nav-bar {
     display: flex;
+    width: 80%;
     justify-content: space-between;
+    margin: auto;
     align-items: center;
-    margin: 2rem 3rem;
+    background-image: url(./Images/header-background-mobile.png);
+    position: sticky;
+    top: 0px;
+    z-index: 4;
+    padding-top: 20px;
+    
+  }
+
+  #union-img:hover{
+    opacity: 0.8;
+  }
+
+  #union-img:active{
+    opacity: 3;
   }
 
   #logo-image {
@@ -28,9 +43,18 @@
   }
 
   main {
-    margin-top: 10rem;
-    background-image: url(./Images/header-background-mobile.png);
     height: 100vh;
+    background-image: url(./Images/header-shapes\ mobile.png);
+    background-size: cover;
+    
+    
+  }
+
+  #main-container{
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+
   }
 
   /* MAIN SECTION START  */
@@ -45,7 +69,7 @@
     width: 20rem;
     height: 10rem;
     align-items: center;
-    margin: 0.75rem 1.5rem 0.75rem;
+    margin: 4rem 1.5rem 0.75rem;
   }
 
   #link {
@@ -158,3 +182,4 @@
     top: 738px;
   }
 }
+
