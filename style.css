@@ -304,6 +304,7 @@ color: #172B4D;
   #language-header{
     display: flex;
     justify-content: space-between;
+    width: 80%;
   }
   #language-header h2{
 font-family: 'Poppins';
@@ -315,8 +316,13 @@ color: #000000;
 margin-bottom: 36px;
 
   }
-  .fa-chevron-down{
-
+ 
+  #language-header-box{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
   }
 
   #skills-container-box{
@@ -359,7 +365,11 @@ line-height: 20px;
   }
 
   .framework-skill h2{
-
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
   }
 
   .framework-skill img{
