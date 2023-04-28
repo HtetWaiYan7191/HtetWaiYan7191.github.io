@@ -7,19 +7,6 @@
 
 /* MOBILE VERSION */
 @media only screen and (min-width: 375px) {
-  #nav-bar {
-    /* display: flex;
-    width: 100%;
-    justify-content: space-around;
-    margin: auto;
-    align-items: center;
-    background-image: url(./Images/header-background-mobile.png);
-    position: fixed;
-    top:10px;
-    z-index: 4;
-    padding-top: 20px;
-    padding-bottom: 10px; */
-  }
 
   #nav-bar-header {
     display: flex;
@@ -446,6 +433,7 @@
   }
 
   #message-box {
+    width: 100%;
     margin-top: 33px;
     background: #fff;
     border: 1px solid #cfd8dc;
