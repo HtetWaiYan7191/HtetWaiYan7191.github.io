@@ -154,21 +154,25 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 100px 24px;
-    margin-top: 40px;
+    width: 346px;
+    margin: 40px auto; 
+    padding: 35px;
+    border: 1px solid gray;
+    border-radius: 20px;
+
   }
 
   figure{
-    margin: auto;
+    margin: 10px auto;
   }
 
   #snap-shot-image{
-    width: 295px;
-    height: 200px;
+    width: 100%;
+    
   }
 
   .project-showing{
-    padding: 20px 24px;
+    padding: 0px 20px;
   }
 
   #project-showing h2{
