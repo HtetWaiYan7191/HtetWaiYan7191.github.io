@@ -388,7 +388,96 @@ line-height: 24px;
   }
 
 
+/* CONTACT ME SECTION START  */
 
+#contact-me-section{
+  display: flex;
+  flex-direction: column;
+  background-image: url(./Images/header-shapes\ mobile.png);
+  background-size: cover;
+  background-color: #6070FF;
+  padding: 103px 2px;
+  border-radius: 80px 0px 0px 0px ;
+
+}
+
+#contact-me-header{
+  text-align: center;
+  padding: 12px 24px;
+}
+
+#contact-me-header h2{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 52px;
+color: #FFFFFF;
+}
+
+#contact-me-header p{
+  margin-top: 12px;
+  color: #EBEBFF;
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+}
+
+#contact-me-form{
+  margin: 20px auto;
+  padding: 10px 40px;
+  width: 90%;
+}
+
+#contact-me-form input{
+  width: 100%;
+  margin-top: 25px;
+  padding: 15px 38px 15px 16px;
+  background: #FFFFFF;
+  border: 1px solid #CFD8DC;
+  border-radius: 8px;
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 20px;
+}
+#message-box{
+  margin-top: 33px;
+  background: #FFFFFF;
+  border: 1px solid #CFD8DC;
+  border-radius: 8px;
+   padding: 15px 38px 15px 16px;
+   font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 20px;
+
+}
+
+::placeholder{
+   color: #B3BAC5;
+}
+
+#contact-me-form button{
+  margin-top: 34px;
+  padding: 12px 16px;
+  background-color: #FFFFFF;
+  color:  #6070FF;
+  display: block;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 24px;
+
+}
   
 
 
