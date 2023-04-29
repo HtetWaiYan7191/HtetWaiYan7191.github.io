@@ -44,7 +44,6 @@
 
   main {
     height: 100vh;
-    background-image: url(./Images/header-shapes\ mobile.png);
     background-size: cover;
   }
 
@@ -54,6 +53,8 @@
     padding: 100px 24px;
     align-items: flex-start;
     margin-top: 80px;
+    background-image: url(./Images/header-shapes\ mobile.png);
+    background-size: cover;
   }
 
   /* MAIN SECTION START  */
@@ -470,15 +471,14 @@
 @media only screen and (min-width: 768px) {
   #nav-bar-header {
     display: flex;
-    width: 80%;
+    width: 100%;
     justify-content: space-between;
-    margin: auto;
+    padding: 30px 155px 10px 155px;
     align-items: center;
-    background-image: url(./Images/header-background-mobile.png);
-    position: sticky;
+    position: fixed;
     top: 0;
     z-index: 4;
-    padding-top: 20px;
+    
   }
 
   #union-img {
@@ -505,8 +505,11 @@
     display: flex;
     justify-content: flex-start;
     width: 60%;
-    margin: auto;
+    margin: 100px auto;
+    background-image: url(./Images/Header\ bg.png);
+    background-size: cover;
   }
+
 
   #text-container {
     /* width: 960px; */
@@ -521,15 +524,16 @@
     margin-left: 0;
   }
 
-  .info-text {
+  #intro-text {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 1rem;
     line-height: 150%;
-    height: 100px;
     color: #344563;
     width: 100%;
+    height: 98px;
+    text-align: left;
   }
 
   .link {
@@ -539,6 +543,5 @@
     font-weight: 500;
     font-size: 1rem;
     line-height: 150%;
-    margin-top: 0;
   }
 }
