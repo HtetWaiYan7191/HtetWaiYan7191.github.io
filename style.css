@@ -376,6 +376,10 @@
     margin: 23px 0;
   }
 
+  #separator-img2 {
+    display: none;
+  }
+
   /* CONTACT ME SECTION START  */
 
   #contact-me-section {
@@ -578,5 +582,76 @@
 
   /* ABOUT MYSELF SECTION START  */
 
-  
+  #about-myself-section {
+    margin: auto;
+    display: flex;
+    width: 85%;
+    flex-direction: row;
+    align-content: flex-start;
+    }
+
+    #about-myself-container {
+      flex: 1;
+      margin-right: 48px;
+    }
+
+    #language-section {
+      flex:1; 
+      margin: 0;
+    }
+
+    #language-header {
+      padding: 12px;
+    }
+
+    #language-header-box {
+      width: 100%;
+    }
+    #language-header h2 {
+      margin-bottom: 0;
+    }
+
+    #language-header i {
+      display: none;
+    }
+
+    .right-chevron {
+      display: none;
+    }
+
+    #skills-container-box {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+    }
+
+    .skills {
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+      margin-right: 12px;
+    }
+
+    .skills span {
+      width: 100%;
+      text-align: center;
+    }
+
+    #separator-img {
+      width: 100%;
+    }
+    #separator-img2 {
+      width: 100%;
+      display: block;
+      margin-top: 23px;
+    }
+
+
+
+
+
+
+
+
+
 }
