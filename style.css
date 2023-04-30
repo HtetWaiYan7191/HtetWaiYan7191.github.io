@@ -53,6 +53,7 @@
     padding: 100px 24px;
     align-items: flex-start;
     margin-top: 80px;
+
     /* background-image: url(./Images/header-shapes\ mobile.png); */
     background-size: cover;
   }
@@ -482,7 +483,6 @@
     position: fixed;
     top: 0;
     z-index: 4;
-    
   }
 
   #union-img {
@@ -517,25 +517,27 @@
   .view-project-button button {
     cursor: pointer;
   }
+
   .view-project-button button:hover {
-      color: #FFFFFF;
-      background-color: #6070FF;
-      border:none;
+    color: #fff;
+    background-color: #6070ff;
+    border: none;
   }
 
-  main{
+  main {
+    height: auto;
     border: 1px solid #dfe1e6;
-    border-radius: 0px 0px 0px 100px;
+    border-radius: 0 0 0 100px;
     background-image: url(./Images/Header\ bg.png);
     background-size: cover;
   }
+
   #main-container {
     display: flex;
     justify-content: flex-start;
     margin: 100px auto;
     padding: 180px 170px;
   }
-
 
   #text-container {
     width: 730px;
@@ -571,10 +573,6 @@
     line-height: 150%;
   }
 
-  .link h2 {
-
-  }
-
   /* WORK SECTION START  */
   #work {
     margin-top: 100px;
@@ -584,7 +582,6 @@
     width: 95%;
     display: flex;
     flex-direction: row;
-    
   }
 
   figure {
@@ -609,115 +606,107 @@
     width: 85%;
     flex-direction: row;
     align-content: flex-start;
-    }
+  }
 
-    #about-myself-container {
-      flex: 1;
-      margin-right: 48px;
-    }
+  #about-myself-container {
+    flex: 1;
+    margin-right: 48px;
+  }
 
-    #language-section {
-      flex:1; 
-      margin: 0;
-    }
+  #language-section {
+    flex: 1;
+    margin: 0;
+  }
 
-    #language-header {
-      padding: 12px;
-    }
+  #language-header {
+    padding: 12px;
+  }
 
-    #language-header-box {
-      width: 100%;
-    }
-    #language-header h2 {
-      margin-bottom: 0;
-    }
+  #language-header-box {
+    width: 100%;
+  }
 
-    #language-header i {
-      display: none;
-    }
+  #language-header h2 {
+    margin-bottom: 0;
+  }
 
-    .right-chevron {
-      display: none;
-    }
+  #language-header i {
+    display: none;
+  }
 
-    #skills-container-box {
-      display: flex;
-      flex-direction: row;
-      width: 100%;
-    }
+  .right-chevron {
+    display: none;
+  }
 
-    .skills {
-      display: flex;
-      flex-direction: column;
-      flex: 1;
-      margin-right: 12px;
-    }
+  #skills-container-box {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
 
-    .skills span {
-      width: 100%;
-      text-align: center;
-    }
+  .skills {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-right: 12px;
+  }
 
-    #separator-img {
-      width: 100%;
-    }
-    #separator-img2 {
-      width: 100%;
-      display: block;
-      margin-top: 23px;
-    }
+  .skills span {
+    width: 100%;
+    text-align: center;
+  }
 
+  #separator-img {
+    width: 100%;
+  }
 
-    /* ABOUT MYSELF SECTION START  */
+  #separator-img2 {
+    width: 100%;
+    display: block;
+    margin-top: 23px;
+  }
 
-    #contact-me-header { 
-      display: flex;
+  /* ABOUT MYSELF SECTION START  */
+
+  #contact-me-header {
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    }
+  }
 
-    #contact-me-section {
-      border-radius: 120px 0 0 0;
-      background-image: url(./Images/contact\ form\ background\ shapes@2x.png);
-      background-color: #6070FF;
-      background-size: cover; 
-    }
+  #contact-me-section {
+    border-radius: 120px 0 0 0;
+    background-image: url(./Images/contact\ form\ background\ shapes@2x.png);
+    background-color: #6070ff;
+    background-size: cover;
+  }
 
-    #contact-me-header p {
-      width: 569px;
-    }
+  #contact-me-header p {
+    width: 569px;
+  }
 
-    #contact-me-form {
-      width:40%;
-    }
+  #contact-me-form {
+    width: 40%;
+  }
 
-    #contact-me-form input {
-      border: none;
-      border-radius: 2px;
-    }
+  #contact-me-form input {
+    border: none;
+    border-radius: 2px;
+  }
 
-    #message-box {
-      border-radius: 2px;
-      padding: 15px 38px 15px 10px;
-    }
+  #message-box {
+    border-radius: 2px;
+    padding: 15px 38px 15px 10px;
+  }
 
-    #contact-me-form button {
-      margin: 34px auto;
-      cursor: pointer;
-    }
+  #contact-me-form button {
+    margin: 34px auto;
+    cursor: pointer;
+  }
 
-    #contact-me-form button:hover {
-      background-color: #396df2;
-      color: #FFFFFF;
-    }
-
-
-
-
-
-
-
-
-
+  #contact-me-form button:hover {
+    background-color: #396df2;
+    color: #fff;
+  }
 }
