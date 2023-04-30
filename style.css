@@ -385,7 +385,7 @@
   #contact-me-section {
     display: flex;
     flex-direction: column;
-    background-image: url(./Images/header-shapes\ mobile.png);
+    background-image: url(./Images/contact\ form\ background\ shapes@2x.png);
     background-size: cover;
     background-color: #6070ff;
     padding: 103px 2px;
@@ -503,6 +503,11 @@
     font-size: 15px;
     line-height: 20px;
     color: #344563;
+    cursor: pointer;
+  }
+
+  #side-navbar-container li:hover {
+    color: #6070ff;
   }
 
   main{
@@ -514,7 +519,6 @@
   #main-container {
     display: flex;
     justify-content: flex-start;
-    width: 80%;
     margin: 100px auto;
     padding: 180px 170px;
   }
@@ -541,7 +545,7 @@
     line-height: 150%;
     color: #344563;
     width: 100%;
-    height: 84px;
+    height: auto;
     text-align: left;
   }
 
@@ -552,6 +556,10 @@
     font-weight: 500;
     font-size: 1rem;
     line-height: 150%;
+  }
+
+  .link h2 {
+
   }
 
   /* WORK SECTION START  */
@@ -658,7 +666,8 @@
 
     #contact-me-section {
       border-radius: 120px 0 0 0;
-      background-image: url(./Images/header-shapes\ mobile.png);
+      background-image: url(./Images/contact\ form\ background\ shapes@2x.png);
+      background-color: #6070FF;
       background-size: cover; 
     }
 
