@@ -510,6 +510,19 @@
     color: #6070ff;
   }
 
+  #side-navbar-container li:active {
+    color: #344563;
+  }
+
+  .view-project-button button {
+    cursor: pointer;
+  }
+  .view-project-button button:hover {
+      color: #FFFFFF;
+      background-color: #6070FF;
+      border:none;
+  }
+
   main{
     border: 1px solid #dfe1e6;
     border-radius: 0px 0px 0px 100px;
@@ -691,6 +704,12 @@
 
     #contact-me-form button {
       margin: 34px auto;
+      cursor: pointer;
+    }
+
+    #contact-me-form button:hover {
+      background-color: #396df2;
+      color: #FFFFFF;
     }
 
 
