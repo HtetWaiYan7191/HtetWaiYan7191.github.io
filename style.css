@@ -647,6 +647,44 @@
     }
 
 
+    /* ABOUT MYSELF SECTION START  */
+
+    #contact-me-header { 
+      display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+
+    #contact-me-section {
+      border-radius: 120px 0 0 0;
+      background-image: url(./Images/header-shapes\ mobile.png);
+      background-size: cover; 
+    }
+
+    #contact-me-header p {
+      width: 569px;
+    }
+
+    #contact-me-form {
+      width:40%;
+    }
+
+    #contact-me-form input {
+      border: none;
+      border-radius: 2px;
+    }
+
+    #message-box {
+      border-radius: 2px;
+      padding: 15px 38px 15px 10px;
+    }
+
+    #contact-me-form button {
+      margin: 34px auto;
+    }
+
+
 
 
 
