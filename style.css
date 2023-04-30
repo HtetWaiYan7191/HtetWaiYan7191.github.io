@@ -155,7 +155,7 @@
     margin: 10px auto;
   }
 
-  #snap-shot-image {
+  .snap-shot-image {
     width: 100%;
   }
 
@@ -548,5 +548,31 @@
     font-weight: 500;
     font-size: 1rem;
     line-height: 150%;
+  }
+
+  /* WORK SECTION START  */
+  #work {
+    margin-top: 100px;
+  }
+
+  .project-section {
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    
+  }
+
+  figure {
+    width: 500px;
+  }
+
+  #availibity-card {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  #professional-art-card {
+    display: flex;
+    flex-direction: row-reverse;
   }
 }
