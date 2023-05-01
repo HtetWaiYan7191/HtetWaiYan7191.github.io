@@ -8,19 +8,21 @@
 /* MOBILE VERSION */
 @media only screen and (min-width: 375px) {
   #nav-bar-header {
-    display: flex;
-    justify-content: space-around;
     width: 100%;
-    align-items: center;
     background-image: url(./Images/header-background-mobile.png);
     position: fixed;
     top: 0;
+    padding: 10px 20px 10px 20px;
     padding-top: 20px;
     padding-bottom: 10px;
   }
 
   #side-navbar-container {
     display: none;
+  }
+
+  #union-img {
+    margin-left: 210px;
   }
 
   #union-img:hover {
@@ -32,8 +34,10 @@
   }
 
   #logo-image {
+    float: left;
     width: 5rem;
     height: 1.25rem;
+    
   }
 
   #vector-image {
