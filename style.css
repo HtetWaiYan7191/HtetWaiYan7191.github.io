@@ -49,10 +49,8 @@
   }
 
   #main-container {
-    display: flex;
-    flex-direction: column;
+   
     padding: 100px 24px;
-    align-items: flex-start;
     margin-top: 80px;
   }
 
@@ -201,8 +199,7 @@
 
   .skill-buttons {
     margin-top: 16px;
-    display: flex;
-    justify-content: start;
+    
   }
 
   .info-text {
