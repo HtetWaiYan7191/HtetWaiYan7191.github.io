@@ -175,9 +175,6 @@
   }
 
   .experience {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
     margin-top: 20px;
   }
 
@@ -191,6 +188,7 @@
   }
 
   .experience li {
+    float: left;
     margin-right: 10px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -214,6 +212,7 @@
     line-height: 24px;
     color: #344563;
     margin-top: 20px;
+    clear: both;
   }
 
   .skill-buttons li {
@@ -234,6 +233,7 @@
   }
 
   .counter-img {
+    float: left;
     margin-right: 12px;
   }
 
@@ -248,6 +248,7 @@
     border-radius: 16px;
     background-color: #fff;
     border-color: #396df2;
+    margin-top: 30px;
   }
 
   /* ABOUT MYSELF SECTION START  */
@@ -532,6 +533,8 @@
     height: 100px;
     color: #344563;
     width: 100%;
+    
+
   }
 
   .link {
