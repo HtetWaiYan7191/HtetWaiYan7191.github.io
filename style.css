@@ -211,8 +211,8 @@
     font-size: 15px;
     line-height: 24px;
     color: #344563;
-    margin-top: 20px;
     clear: both;
+    padding-top: 20px;
   }
 
   .skill-buttons li {
