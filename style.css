@@ -45,6 +45,8 @@
   main {
     height: 100vh;
     background-size: cover;
+    background-image: url(./Images/header-shapes\ mobile.png);
+
   }
 
   #main-container {
@@ -53,8 +55,6 @@
     padding: 100px 24px;
     align-items: flex-start;
     margin-top: 80px;
-
-    /* background-image: url(./Images/header-shapes\ mobile.png); */
     background-size: cover;
   }
 
