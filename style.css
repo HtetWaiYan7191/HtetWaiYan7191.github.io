@@ -248,6 +248,18 @@
     border-color: #396df2;
   }
 
+  .view-project-button button:hover {
+    color: #fff;
+    background-color: #6070ff;
+    border: none;
+  }
+
+  .view-project-button button:active {
+    color: #fff;
+    background-color: #2230d2;
+    border: none;
+  }
+
   /* ABOUT MYSELF SECTION START  */
 
   #about-myself-section {
@@ -463,6 +475,16 @@
     font-weight: 500;
     font-size: 17px;
     line-height: 24px;
+  }
+
+  #contact-me-form button:hover {
+    background-color: #6070ff;
+    color: #fff;
+  }
+
+  #contact-me-form button:active {
+    background-color: #2230d2;
+    color: #fff;
   }
 }
 
