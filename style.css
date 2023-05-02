@@ -418,7 +418,7 @@
 
   #contact-me-form {
     margin: 20px auto;
-    padding: 10px 20px;
+    padding: 10px 24px;
     width: 90%;
   }
 
@@ -442,7 +442,7 @@
     background: #fff;
     border: 1px solid #cfd8dc;
     border-radius: 8px;
-    padding: 15px 38px 15px 10px;
+    padding: 15px 24px 15px 24px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
