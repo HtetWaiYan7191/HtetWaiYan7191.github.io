@@ -527,6 +527,12 @@
     border: none;
   }
 
+  .view-project-button button:active {
+    color: #fff;
+    background-origin: #2230D2;
+    border: none;
+  }
+
   main {
     height: auto;
     border: 1px solid #dfe1e6;
@@ -712,5 +718,10 @@
   #contact-me-form button:hover {
     background-color: #6070FF;
     color: #fff;
+  }
+
+  #contact-me-form button:active {
+    background-color: #2230D2;
+    color: #FFFFFF;
   }
 }
