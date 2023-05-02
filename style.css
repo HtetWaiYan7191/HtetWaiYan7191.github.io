@@ -248,6 +248,18 @@
     border-color: #396df2;
   }
 
+  .view-project-button button:hover {
+    color: #fff;
+    background-color: #6070ff;
+    border: none;
+  }
+
+  .view-project-button button:active {
+    color: #fff;
+    background-color: #2230d2;
+    border: none;
+  }
+
   /* ABOUT MYSELF SECTION START  */
 
   #about-myself-section {
@@ -413,7 +425,7 @@
 
   #contact-me-form {
     margin: 20px auto;
-    padding: 10px 40px;
+    padding: 10px 24px;
     width: 90%;
   }
 
@@ -437,7 +449,7 @@
     background: #fff;
     border: 1px solid #cfd8dc;
     border-radius: 8px;
-    padding: 15px 38px 15px 0;
+    padding: 15px 24px 15px 24px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -463,6 +475,16 @@
     font-weight: 500;
     font-size: 17px;
     line-height: 24px;
+  }
+
+  #contact-me-form button:hover {
+    background-color: #6070ff;
+    color: #fff;
+  }
+
+  #contact-me-form button:active {
+    background-color: #2230d2;
+    color: #fff;
   }
 }
 
