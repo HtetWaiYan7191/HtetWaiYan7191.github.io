@@ -442,7 +442,7 @@
     background: #fff;
     border: 1px solid #cfd8dc;
     border-radius: 8px;
-    padding: 15px 38px 15px 0;
+    padding: 15px 38px 15px 10px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -452,6 +452,10 @@
 
   ::placeholder {
     color: #b3bac5;
+  }
+
+  #contact-me-form {
+    padding: 10px 20px;
   }
 
   #contact-me-form button {
