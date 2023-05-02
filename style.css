@@ -514,7 +514,7 @@
   }
 
   #side-navbar-container li:active {
-    color: #344563;
+    color:#2230D2;
   }
 
   .view-project-button button {
@@ -710,7 +710,7 @@
   }
 
   #contact-me-form button:hover {
-    background-color: #396df2;
+    background-color: #6070FF;
     color: #fff;
   }
 }
