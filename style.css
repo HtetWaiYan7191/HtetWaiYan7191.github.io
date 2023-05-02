@@ -418,7 +418,7 @@
 
   #contact-me-form {
     margin: 20px auto;
-    padding: 10px 40px;
+    padding: 10px 20px;
     width: 90%;
   }
 
@@ -452,10 +452,6 @@
 
   ::placeholder {
     color: #b3bac5;
-  }
-
-  #contact-me-form {
-    padding: 10px 20px;
   }
 
   #contact-me-form button {
@@ -514,7 +510,7 @@
   }
 
   #side-navbar-container li:active {
-    color:#2230D2;
+    color: #2230d2;
   }
 
   .view-project-button button {
@@ -529,7 +525,7 @@
 
   .view-project-button button:active {
     color: #fff;
-    background-color: #2230D2;
+    background-color: #2230d2;
     border: none;
   }
 
@@ -716,12 +712,12 @@
   }
 
   #contact-me-form button:hover {
-    background-color: #6070FF;
+    background-color: #6070ff;
     color: #fff;
   }
 
   #contact-me-form button:active {
-    background-color: #2230D2;
-    color: #FFFFFF;
+    background-color: #2230d2;
+    color: #fff;
   }
 }
