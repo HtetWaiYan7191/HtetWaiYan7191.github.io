@@ -46,7 +46,6 @@
     height: 100vh;
     background-size: cover;
     background-image: url(./Images/header-shapes\ mobile.png);
-
   }
 
   #main-container {
@@ -533,6 +532,7 @@
   }
 
   #main-container {
+    width: 80%;
     display: flex;
     justify-content: flex-start;
     margin: 100px auto;
