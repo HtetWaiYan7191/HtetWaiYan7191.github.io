@@ -594,6 +594,13 @@
 
   figure {
     width: 500px;
+  
+  }
+
+  .background-color-gray {
+    background-color: #E5E5E5;
+    padding: 40px 0px 40px 0px;
+    border-radius: 8px;
   }
 
   #availibity-card {
