@@ -494,7 +494,6 @@
     z-index: 4;
   }
 
-
   #union-img {
     display: none;
   }
@@ -549,9 +548,9 @@
     border: 1px solid #dfe1e6;
     border-radius: 0 0 0 100px;
     background-image: url(./Images/Header\ bg\ 0.75.png);
-    background-size:contain;
+    background-size: contain;
     margin: 2.4rem auto;
-    background-position:center;
+    background-position: center;
   }
 
   #main-container {
@@ -610,8 +609,6 @@
 
   figure {
     width: 50%;
-    
-    
   }
 
   .figure-margin-right {
@@ -625,8 +622,8 @@
   }
 
   .background-color-gray {
-    background-color: #E5E5E5;
-    padding: 40px 0px 40px 0px;
+    background-color: #e5e5e5;
+    padding: 40px 0 40px 0;
     border-radius: 8px;
   }
 
@@ -643,12 +640,12 @@
   /* ABOUT MYSELF SECTION START  */
 
   #about-myself-section {
-    margin: 8.875rem auto 0px auto;
+    margin: 8.875rem auto 0 auto;
     display: flex;
     width: 85%;
     flex-direction: row;
     align-content: flex-start;
-    padding: 0px;
+    padding: 0;
   }
 
   #about-myself-container {
