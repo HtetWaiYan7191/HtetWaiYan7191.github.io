@@ -43,7 +43,6 @@
   }
 
   main {
-    height: 100vh;
     background-size: cover;
     background-image: url(./Images/header-shapes\ mobile.png);
   }
@@ -51,7 +50,9 @@
   #main-container {
     display: flex;
     flex-direction: column;
-    padding: 100px 24px;
+    padding-top: 83px;
+    padding-left: 24px;
+    padding-right: 24px;
     align-items: flex-start;
     margin-top: 80px;
     background-size: cover;
@@ -137,7 +138,6 @@
   #work {
     display: grid;
     grid-template-columns: 100%;
-    grid-row-gap: 50px;
   }
 
   .project-section {
@@ -145,7 +145,9 @@
     flex-direction: column;
     align-items: flex-start;
     width: 346px;
-    margin: 0 auto;
+    margin-top: 7.125rem;
+    margin-left: auto;
+    margin-right: auto;
     padding: 20px 5px;
     border: 1px solid #dfe1e6;
     border-radius: 20px;
@@ -583,14 +585,14 @@
 
   /* WORK SECTION START  */
   #work {
-    margin-top: 100px;
+    /* margin-top: 8.875rem; */
   }
 
   .project-section {
     width: 90%;
     display: flex;
     flex-direction: row;
-    padding: 1.5rem;
+    margin-top: 8.875rem;
   }
 
   figure {
@@ -628,11 +630,12 @@
   /* ABOUT MYSELF SECTION START  */
 
   #about-myself-section {
-    margin: auto;
+    margin: 8.875rem auto 0px auto;
     display: flex;
     width: 85%;
     flex-direction: row;
     align-content: flex-start;
+    padding: 0px;
   }
 
   #about-myself-container {
@@ -703,6 +706,7 @@
   }
 
   #contact-me-section {
+    margin-top: 8.875rem;
     border-radius: 120px 0 0 0;
     background-image: url(./Images/contact\ form\ background\ shapes@2x.png);
     background-color: #6070ff;
