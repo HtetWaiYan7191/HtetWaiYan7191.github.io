@@ -19,6 +19,12 @@
     padding-bottom: 10px;
   }
 
+  #nav-bar-container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+  }
+
   #side-navbar-container {
     display: none;
   }
@@ -488,6 +494,7 @@
     z-index: 4;
   }
 
+
   #union-img {
     display: none;
   }
@@ -497,6 +504,10 @@
     justify-content: space-around;
     list-style: none;
     width: 300px;
+  }
+
+  #nav-bar-container {
+    width: 100%;
   }
 
   #side-navbar-container li {
