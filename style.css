@@ -387,8 +387,10 @@
   #contact-me-section {
     display: flex;
     flex-direction: column;
-    background-image: url(./Images/contact\ form\ background\ shapes@2x.png);
-    background-size: cover;
+    background-image: url(./Images/contact\ form\ shapes-mobile.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: 103% 12%;
     background-color: #6070ff;
     padding: 103px 2px;
     border-radius: 80px 0 0 0;
@@ -708,9 +710,11 @@
   #contact-me-section {
     margin-top: 8.875rem;
     border-radius: 120px 0 0 0;
+    padding: 140px 2px 2px 127px;
     background-image: url(./Images/contact\ form\ background\ shapes@2x.png);
     background-color: #6070ff;
-    background-size: cover;
+    background-size: contain;
+    background-position: center;
   }
 
   #contact-me-header p {
