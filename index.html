@@ -15,17 +15,20 @@
 </head>
 <body>
     <header id="nav-bar-header">
-        <a href="">
-            <img src="./Images/My Logo.png" alt="logo-img" id="logo-image">
-        </a>
-        <nav id="nav-bar">
-            <ul id="side-navbar-container">
-                <li>Portfolio</li>
-                <li>About</li>
-                <li>Contact</li>
-            </ul>
-            <img src="./Images/Union.png" alt="" id="union-img">
-        </nav>
+        <div id="nav-bar-container">
+            <a href="">
+                <img src="./Images/My Logo.png" alt="logo-img" id="logo-image">
+            </a>
+            <nav id="nav-bar">
+                <ul id="side-navbar-container">
+                    <li>Portfolio</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>
+                <img src="./Images/Union.png" alt="" id="union-img">
+            </nav>
+        </div>
+       
     </header>
 
     <!-- MAIN SECTION START  -->
@@ -38,8 +41,8 @@
                     Glad to see you!</h1>
  
                 <p id="intro-text"> I’m a software developer! I can help you build a product ,
-                    feature or website Look through some of my work and experience! 
-                    If you like what you see and have a project you need coded,
+                    feature or website Look through  some of my work and experience! 
+                    If you like what you see and have a project you need  coded,
                      don’t hesitate to contact me.
                 </p>
             </div>
@@ -71,10 +74,10 @@
     <!-- WORK SECTION START  -->
     <section id="work">
         <section class="project-section">
-            <figure>
-                <img src="./Images/Snapshoot Portfolio.png" alt="" id="snap-shot-image">
+            <figure class=" figure-margin-right">
+                <img src="./Images/Snapshoot Portfolio.png" alt="" class="snap-shot-image">
             </figure>
-            <section class = "project-showing">
+            <section class = "project-showing ">
                 <h2>Tonic</h2>
                 <ul class="experience">
                     <li id="canopy-text">CANOPY</li>
@@ -95,9 +98,9 @@
             </section>
         </section>
 
-        <section class="project-section">
-            <figure>
-                <img src="./Images/Availibity.png" alt="" id="snap-shot-image">
+        <section class="project-section" id="availibity-card">
+            <figure class="">
+                <img src="./Images/Availibity.png" alt="" class="snap-shot-image">
             </figure>
             <section class = "project-showing">
                 <h2>Multi-Post
@@ -122,8 +125,8 @@
         </section>
 
         <section class="project-section">
-            <figure>
-                <img src="./Images/gym_fit.png" alt="" id="snap-shot-image">
+            <figure class="figure-margin-right">
+                <img src="./Images/gym_fit.png" alt="" class="snap-shot-image">
             </figure>
             <section class = "project-showing">
                 <h2>Tonic</h2>
@@ -146,9 +149,9 @@
             </section>
         </section>
 
-        <section class="project-section">
-            <figure>
-                <img src="./Images/Snapshoot Portfolio (2).png" alt="" id="snap-shot-image">
+        <section class="project-section" id="professional-art-card">
+            <figure class="">
+                <img src="./Images/Snapshoot Portfolio (2).png" alt="" class="snap-shot-image">
             </figure>
             <section class="project-showing">
                 <h2>Multi-Post
@@ -177,33 +180,36 @@
         <!-- ABOUT MYSELF SECTION START  -->
 
         <section id="about-myself-section">
-            <h2>About Myself</h2>
-            <p class="info-text" id="about-text">Hello I’m a software developer! I can help you build a product , feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.</p>
-            <div  id="about-myself-link">
-                <h2>LET'S CONNECT</h2>
+            <div id="about-myself-container">
+                <h2>About Myself</h2>
+                <p class="info-text" id="about-text">Hello I’m a software developer! I can help you build a product , feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.</p>
+                <div  id="about-myself-link">
+                    <h2>LET'S CONNECT</h2>
+                </div>
+    
+                <div id="social-links" id="about-myself-social-links">
+                    <ul id="social-links-container">
+                        <li><a href=""><img src="./Images/twitter-logo.png" class="social-links-img" alt=""> </a></li>
+                        <li>
+                            <a href="">
+                                <span id="linkedin-container">
+                                        <img src="./Images/o-png.png" alt="" id="o-png">
+                                        <img src="./Images/I-png.png" alt="" id="I-png"> 
+                                        <img src="./Images/linkedin-logo.png" class="social-links-img" alt="">
+                                </span>
+                            </a>
+                        </li>
+                        <li><a href=""><img src="./Images/M-logo.png" class="social-links-img" alt=""></a></li>
+                        <li><a href=""><img src="./Images/github-logo.png" class="social-links-img" alt=""></a></li>
+                        <li><a href=""> <img src="./Images/peace-sign.png" class="social-links-img" alt=""></a></li>
+                    </ul>
+              </div>
+    
+              <div class="view-project-button">
+                <button>Get my resume</button>
+              </div>
             </div>
 
-            <div id="social-links" id="about-myself-social-links">
-                <ul id="social-links-container">
-                    <li><a href=""><img src="./Images/twitter-logo.png" class="social-links-img" alt=""> </a></li>
-                    <li>
-                        <a href="">
-                            <span id="linkedin-container">
-                                    <img src="./Images/o-png.png" alt="" id="o-png">
-                                    <img src="./Images/I-png.png" alt="" id="I-png"> 
-                                    <img src="./Images/linkedin-logo.png" class="social-links-img" alt="">
-                            </span>
-                        </a>
-                    </li>
-                    <li><a href=""><img src="./Images/M-logo.png" class="social-links-img" alt=""></a></li>
-                    <li><a href=""><img src="./Images/github-logo.png" class="social-links-img" alt=""></a></li>
-                    <li><a href=""> <img src="./Images/peace-sign.png" class="social-links-img" alt=""></a></li>
-                </ul>
-          </div>
-
-          <div class="view-project-button">
-            <button>Get my resume</button>
-          </div>
 
                  <!-- LANGUAGE SECITON START  -->
             <ul id="language-section">
@@ -233,7 +239,7 @@
                 
                 <li class="framework-skill" id="framework-container"> 
                     <h3 class="framework-skill-header">Frameworks</h3>
-                    <img src="./Images/right.png" alt="">
+                    <img src="./Images/right.png" alt="" class="right-chevron">
                 </li>
 
                 <img src="Images/Separator Bottom.png" alt="" id="separator-img">
@@ -241,8 +247,10 @@
                 <li class="framework-skill">
 
                     <h3 class="framework-skill-header">Skills</h3>
-                    <img src="./Images/right.png" alt="">
+                    <img src="./Images/right.png" alt="" class="right-chevron">
                 </li>
+
+                <img src="Images/Separator Bottom.png" alt="" id="separator-img2">
 
             </ul>
 
