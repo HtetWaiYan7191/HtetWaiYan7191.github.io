@@ -142,7 +142,7 @@
   #work {
     display: grid;
     grid-template-columns: 100%;
-    background-color: #E5E5E5;
+    background-color: #e5e5e5;
     padding-bottom: 81px;
   }
 
@@ -157,7 +157,7 @@
     padding: 20px 5px;
     border: 1px solid #dfe1e6;
     border-radius: 20px;
-    background-color: #FFFFFF;
+    background-color: #fff;
   }
 
   figure {
@@ -549,7 +549,7 @@
     border-radius: 0 0 0 100px;
     background-image: url(./Images/Header\ bg\ 0.75.png);
     background-size: contain;
-    margin: 2.4rem auto 0px auto;
+    margin: 2.4rem auto 0 auto;
     background-position: center;
   }
 
@@ -597,7 +597,7 @@
 
   /* WORK SECTION START  */
   #work {
-    background-color: #E5E5E5;
+    background-color: #e5e5e5;
   }
 
   .project-section {
@@ -605,7 +605,7 @@
     display: flex;
     flex-direction: row;
     margin-top: 8.875rem;
-    background-color: #FFFFFF;
+    background-color: #fff;
   }
 
   figure {
