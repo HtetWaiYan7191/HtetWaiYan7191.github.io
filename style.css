@@ -587,14 +587,26 @@
   }
 
   .project-section {
-    width: 95%;
+    width: 90%;
     display: flex;
     flex-direction: row;
+    padding: 1.5rem;
   }
 
   figure {
-    width: 500px;
-  
+    width: 50%;
+    
+    
+  }
+
+  .figure-margin-right {
+    margin-right: 2.875rem;
+    margin-left: 0.75rem;
+    width: 50%;
+  }
+
+  .figure-margin-left {
+    margin-left: 2.875rem;
   }
 
   .background-color-gray {
