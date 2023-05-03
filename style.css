@@ -533,8 +533,10 @@
     height: auto;
     border: 1px solid #dfe1e6;
     border-radius: 0 0 0 100px;
-    background-image: url(./Images/Header\ bg.png);
-    background-size: cover;
+    background-image: url(./Images/Header\ bg\ 0.75.png);
+    background-size:contain;
+    margin: 2.4rem auto;
+    background-position:center;
   }
 
   #main-container {
