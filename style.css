@@ -40,6 +40,7 @@
   #logo-image {
     width: 5rem;
     height: 1.25rem;
+    animation: 3s infinite alternate-reverse rotation 0s;
   }
 
   #vector-image {
@@ -156,6 +157,12 @@
     width: 100%;
   }
 
+  .snap-shot-image:hover {
+    transform: scale(1.1);
+    translate: -20px;
+    transition: all 0.5s ease-in 0s;
+  }
+
   .project-showing {
     padding: 0 20px;
   }
@@ -250,6 +257,7 @@
     color: #fff;
     background-color: #6070ff;
     border: none;
+    transition: all 0.4s ease-in 0s;
   }
 
   .view-project-button button:active {
@@ -483,6 +491,7 @@
   #contact-me-form button:hover {
     background-color: #6070ff;
     color: #fff;
+    transition: all 0.4s ease-in 0s;
   }
 
   #contact-me-form button:active {
@@ -531,6 +540,7 @@
 
   #side-navbar-container li:hover {
     color: #6070ff;
+    transition: all 0.8s ease-out 0s;
   }
 
   #side-navbar-container li:active {
@@ -749,6 +759,16 @@
     border-radius: 2px;
   }
 
+  #contact-me-form input:hover {
+    padding-left: 40px;
+    transition: all 0.4s ease-in 0s;
+  }
+
+  #contact-me-form textarea:hover {
+    padding-left: 40px;
+    transition: all 0.4s ease-in 0s;
+  }
+
   #message-box {
     border-radius: 2px;
     padding: 15px 38px 15px 10px;
@@ -767,5 +787,15 @@
   #contact-me-form button:active {
     background-color: #2230d2;
     color: #fff;
+  }
+
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg) scale(0.5);
+    }
+
+    to {
+      transform: rotate(360deg) scale(1.2);
+    }
   }
 }
