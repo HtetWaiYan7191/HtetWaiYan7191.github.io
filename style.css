@@ -111,18 +111,6 @@
     position: relative;
   }
 
-  #o-png {
-    position: absolute;
-    left: -7px;
-    top: -4px;
-  }
-
-  #I-png {
-    position: absolute;
-    left: -7px;
-    top: 3px;
-  }
-
   #social-links {
     margin-top: 0.75rem;
   }
