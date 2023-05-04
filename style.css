@@ -156,6 +156,12 @@
     width: 100%;
   }
 
+  .snap-shot-image:hover {
+      transform: scale(1.2);
+      transition: all 0.4s ease-in 0s;
+    }
+  
+
   .project-showing {
     padding: 0 20px;
   }
@@ -250,7 +256,9 @@
     color: #fff;
     background-color: #6070ff;
     border: none;
+    transition: all 0.4s ease-in 0s;
   }
+
 
   .view-project-button button:active {
     color: #fff;
@@ -483,6 +491,7 @@
   #contact-me-form button:hover {
     background-color: #6070ff;
     color: #fff;
+    transition: all 0.4s ease-in 0s;
   }
 
   #contact-me-form button:active {
@@ -621,7 +630,7 @@
   figure {
     width: 50%;
   }
-
+  
   .figure-margin-right {
     margin-right: 2.875rem;
     margin-left: 0.75rem;
