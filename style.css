@@ -158,11 +158,11 @@
   }
 
   .snap-shot-image:hover {
-      transform: scale(1.1) ;
-      translate: -20px;
-      transition: all 0.5s ease-in 0s;
-    }
-  
+    transform: scale(1.1);
+    translate: -20px;
+    transition: all 0.5s ease-in 0s;
+  }
+
   .project-showing {
     padding: 0 20px;
   }
@@ -259,7 +259,6 @@
     border: none;
     transition: all 0.4s ease-in 0s;
   }
-
 
   .view-project-button button:active {
     color: #fff;
@@ -632,7 +631,7 @@
   figure {
     width: 50%;
   }
-  
+
   .figure-margin-right {
     margin-right: 2.875rem;
     margin-left: 0.75rem;
@@ -768,7 +767,6 @@
   #contact-me-form textarea:hover {
     padding-left: 40px;
     transition: all 0.4s ease-in 0s;
-
   }
 
   #message-box {
@@ -792,12 +790,11 @@
   }
 
   @keyframes rotation {
-    from{
+    from {
       transform: rotate(0deg) scale(0.5);
-      
     }
 
-    to{
+    to {
       transform: rotate(360deg) scale(1.2);
     }
   }
