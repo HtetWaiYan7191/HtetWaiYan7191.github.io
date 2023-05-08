@@ -6,9 +6,11 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+    - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
+  - [Deployment](#deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -51,7 +53,11 @@ It is a portfolio project to showcase my skills and projects.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
+## 🚀 Live Demo <a name="live-demo"></a>
 
+- [Live Demo Link](https://github.com/HtetWaiYan7191)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- GETTING STARTED -->
@@ -74,7 +80,13 @@ Clone this repository to your desired folder:
 ### Setup
 
 
+### Deployment <a name="deployment"></a>
 
+You can access this project by using the link below...<br>
+[My Portfolio](https://htetwaiyan7191.github.io./)
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
