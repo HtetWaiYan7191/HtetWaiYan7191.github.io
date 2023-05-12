@@ -5,6 +5,10 @@
   font-family: 'Poppins', sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* MOBILE VERSION */
 @media only screen and (min-width: 375px) {
   #nav-bar-header {
@@ -49,6 +53,18 @@
     list-style: none;
   }
 
+  .header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .button-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+  } 
 
   #menu-navbar li a {
     text-decoration: none;
@@ -282,10 +298,62 @@
 
   .view-project-button {
     margin-top: 25px;
+    margin-right: 0.8rem;
   }
 
   .counter-img {
     margin-right: 12px;
+  }
+
+  .see-btn {
+    font-size: 15px;
+    color: #396df2;
+    background-color: #fff;
+    border-color: #396df2;
+    padding: 0.8rem 1rem;
+    border-radius: 16px;
+  }
+
+  #project-pop-up {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0) ;
+    transition: 200ms ease-in-out;
+    z-index: 10;
+  }
+
+  #project-pop-up.active {
+    transform: translate(-50%,-50%) scale(1);
+  }
+
+  #overlay {
+    position: fixed;
+    opacity: 0;
+    top: 0;
+    left: 0;  
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,.5);
+    pointer-events: none;
+  }
+
+  #overlay.active {
+    opacity: 1;
+    pointer-events: all;
+
+  }
+
+  .pop-up-btn {
+    margin-top: 25px;
+    margin-right: 0.8rem;
+  }
+
+  .pop-up-btn span {
+    margin-left: 0.3rem;
+  }
+  .pop-up-btn img {
+    align-self: center;
   }
 
   .view-project-button button {
