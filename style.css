@@ -21,26 +21,50 @@
 
   #menu-navbar {
     display: none;
-    position: absolute;
+    position: fixed;
     width: 100%;
     height: 100%;
     top: 0;
-    background-color: rgba(0, 0, 255, 0.8);
+    background-color: rgba(96, 112, 255, 0.9);
     z-index: 999;
     display: flex;
     flex-direction: column;
     list-style: none;
-    padding-left: 30px;
+    padding: 20px;
+  }
+
+  .add-transition {
+    transition: all 0.4s ease-in all;
+  }
+
+  .invisible-display {
+    display: none;
   }
 
   #menu-navbar li {
-    margin-top: 10px;
-    font-size: 30px;
+    margin-top: 40px;
+    font-size: 32px;
+    font-weight: 600;
     color: #FFFFFF;
+    list-style: none;
   }
 
-  #menu-navbar div h1 {
-    text-align: end;
+
+  #menu-navbar li a {
+    text-decoration: none;
+    font-size: inherit;
+    font-weight:inherit;
+    color:inherit;
+    cursor: pointer;
+  }
+
+  #menu-navbar li a:focus {
+    box-shadow: none;
+  }
+
+  #menu-navbar #cross-btn {
+   display: flex;
+   justify-content: end;
   }
 
   #nav-bar-container {
