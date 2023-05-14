@@ -9,15 +9,15 @@ overlay.setAttribute('id', 'overlay');
 function createModal(id, title, image, description, skills, liveLink) {
   const sampleTemplateModal = `
 <div id="#" class="">
-<section class="project-section">
-    <section class = "project-showing ">
+<section class="project-sectiona modal-project-section">
+    <section class = "project-showinga modal-project-showing">
         <div class="header-wrapper">
             <h2>${title}</h2>
             <a href="#/" id="crossBtnImg">
                 <img src="./Images/Icon - Cancel.png" alt="" data-close-button>
             </a>
         </div>
-        <ul class="experience">
+        <ul class="experiencea modal-experience">
             <li id="canopy-text">CANOPY</li>
             <img src="./Images/Counter.png" alt="" class="counter-img">
             <li>Back End Dev</li>
@@ -25,23 +25,25 @@ function createModal(id, title, image, description, skills, liveLink) {
             <li>2015</li>
         </ul>
 
-        <figure class=" figure-margin-right">
+        <figure class=" figure-margin-righta">
             <img src="${image}" alt="" class="snap-shot-image">
         </figure>
 
-        <p class="info-text">${description}</p>
+        <p class="info-texta">${description}</p>
         <ul class="skill-buttons">
             <li>${skills[0]}</li>
             <li>${skills[1]}</li>
             <li>${skills[2]}</li>
         </ul>
         <div class="button-wrapper">
-            <div class="pop-up-btn">
-            <a href="${liveLink}"><button class="see-btn">See Live <span><img src="./Images/Icon.png" alt=""></span></button></a>
-            </div>
-            <div class="pop-up-btn">
-                <a href="${liveLink}"><button class="see-btn">See Source <img src="./Images/Vector.png" alt=""></button></a>
-            </div>
+            <button class="pop-up-btn see-btn">
+            <span>See Live</span>
+            <a href="${liveLink}"><img src="./Images/Icon.png" alt=""></a>
+            </button>
+            <button class="pop-up-btn see-btn">
+            <span>See Source</span>
+                <a href="${liveLink}"> <img src="./Images/Vector.png" alt=""></a>
+            </button>
         </div>
        
     </section>
@@ -56,7 +58,7 @@ const projectCard = {
     id: 1,
     title: 'Tonic',
     image: './Images/Snapshoot Portfolio.png',
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    description: " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     skills: ['HTML', 'CSS', 'JavaScript'],
     liveLink: '#/',
   },
@@ -65,7 +67,7 @@ const projectCard = {
     id: 2,
     title: 'Multi-Post Stories',
     image: './Images/Availibity.png',
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    description: " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     skills: ['HTML', 'CSS', 'JavaScript'],
     liveLink: '#/',
   },
@@ -74,7 +76,7 @@ const projectCard = {
     id: 3,
     title: 'Tonic',
     image: './Images/gym_fit.png',
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    description: " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     skills: ['HTML', 'CSS', 'JavaScript'],
     liveLink: '#/',
   },
@@ -83,7 +85,7 @@ const projectCard = {
     id: 4,
     title: 'Multi-Post Stories',
     image: './Images/Snapshoot Portfolio (2).png',
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    description: " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     skills: ['HTML', 'CSS', 'JavaScript'],
     liveLink: '#/',
   },
@@ -115,6 +117,11 @@ openPopButtons.forEach((button) => {
     addElement.after(element);
     element.after(overlay);
     openModal(element);
+    let figures = document.querySelectorAll('.project-showing figure');
+    figures.forEach((figure) => {
+      figure.style.width = '100%';
+      figure.style.marginTop = '2rem';
+    });
     const closePopButtons = document.querySelectorAll('[data-close-button]');
 
     closePopButtons.forEach((button) => {

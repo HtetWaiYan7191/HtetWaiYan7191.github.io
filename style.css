@@ -30,7 +30,7 @@ html {
     height: 100%;
     top: 0;
     background-color: rgba(96, 112, 255, 0.9);
-    z-index: 999;
+    z-index: 4;
     display: flex;
     flex-direction: column;
     list-style: none;
@@ -213,6 +213,12 @@ html {
     background-color: #fff;
   }
 
+  .modal-project-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
   figure {
     margin: 10px auto;
   }
@@ -221,14 +227,19 @@ html {
     width: 100%;
   }
 
-  .snap-shot-image:hover {
+  /* .snap-shot-image:hover {
     transform: scale(1.1);
     translate: -20px;
     transition: all 0.5s ease-in 0s;
-  }
+  } */
 
   .project-showing {
-    padding: 0 20px;
+    padding: 0px 20px;
+  }
+
+  .modal-project-showing {
+    padding: 10px 20px;
+    border-radius: 16px;
   }
 
   .project-showing h2 {
@@ -246,6 +257,24 @@ html {
     align-items: center;
     justify-content: flex-start;
     margin-top: 20px;
+  }
+
+  .modal-experience {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 20px;
+  }
+
+  .modal-experience li {
+    margin-right: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    list-style: none;
+    color: #7a869a;
   }
 
   #canopy-text {
@@ -310,7 +339,7 @@ html {
     color: #396df2;
     background-color: #fff;
     border-color: #396df2;
-    padding: 0.8rem 1rem;
+    padding: 10px 8px;
     border-radius: 16px;
   }
 
@@ -321,7 +350,11 @@ html {
     transform: translate(-50%, -50%) scale(0);
     transition: 200ms ease-in-out;
     z-index: 10;
+    background-color: #FFFFFF;
+    border-radius: 16px;
   }
+
+
 
   /* #project-pop-up.active {
     transform: translate(-50%,-50%) scale(1);
@@ -333,6 +366,7 @@ html {
 
   #overlay {
     position: fixed;
+    z-index: 9;
     opacity: 0;
     top: 0;
     left: 0;  
@@ -349,12 +383,13 @@ html {
   }
 
   .pop-up-btn {
+    display: flex;
     margin-top: 25px;
-    margin-right: 0.8rem;
+    margin: right 0.5em;;
   }
 
   .pop-up-btn span {
-    margin-left: 0.3rem;
+    margin-right: 5px;
   }
   .pop-up-btn img {
     align-self: center;
@@ -750,6 +785,10 @@ html {
 
   figure {
     width: 50%;
+  }
+
+  .figure-desktop {
+    width: 100%;
   }
 
   .figure-margin-right {
