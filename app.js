@@ -21,6 +21,7 @@ input.addEventListener('blur', (e) => {
 });
 
 navbar.addEventListener('click', () => {
+  navbar.style.display="none";
   if (menuNavbar.style.display === 'none') {
     menuNavbar.style.display = 'block';
   } else {
@@ -30,4 +31,5 @@ navbar.addEventListener('click', () => {
 
 crossBtn.addEventListener('click', () => {
   menuNavbar.style.display = 'none';
+  navbar.style.display="block";
 });
