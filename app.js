@@ -26,25 +26,32 @@ function createModal(id, title, image, description, skills, liveLink) {
         </ul>
 
         <figure class=" figure-margin-righta">
-            <img src="${image}" alt="" class="snap-shot-image">
+            <img src="${image}" alt="" class="snap-shot-imagea modal-image">
         </figure>
+      <div class="info-skill-container">
+          <p class="info-texta modal-text">${description}</p>
 
-        <p class="info-texta">${description}</p>
-        <ul class="skill-buttons">
-            <li>${skills[0]}</li>
-            <li>${skills[1]}</li>
-            <li>${skills[2]}</li>
-        </ul>
-        <div class="button-wrapper">
-            <button class="pop-up-btn see-btn">
-            <span>See Live</span>
-            <a href="${liveLink}"><img src="./Images/Icon.png" alt=""></a>
-            </button>
-            <button class="pop-up-btn see-btn">
-            <span>See Source</span>
-                <a href="${liveLink}"> <img src="./Images/Vector.png" alt=""></a>
-            </button>
-        </div>
+            <div class="skill-button-container">
+              <ul class="skill-buttons modal-skill-buttons">
+                <li>${skills[0]}</li>
+                <li>${skills[1]}</li>
+                <li>${skills[2]}</li>
+              </ul>
+              <div class="button-wrapper">
+                  <button class="pop-up-btn see-btn">
+                  <span>See Live</span>
+                  <a href="${liveLink}"><img src="./Images/Icon.png" alt=""></a>
+                  </button>
+                  <button class="pop-up-btn see-btn">
+                  <span>See Source</span>
+                      <a href="${liveLink}"> <img src="./Images/Vector.png" alt=""></a>
+                  </button>
+              </div>
+          </div>
+      </div>
+        
+        
+       
        
     </section>
 </section>
@@ -117,7 +124,7 @@ openPopButtons.forEach((button) => {
     addElement.after(element);
     element.after(overlay);
     openModal(element);
-    let figures = document.querySelectorAll('.project-showing figure');
+    const figures = document.querySelectorAll('.project-showing figure');
     figures.forEach((figure) => {
       figure.style.width = '100%';
       figure.style.marginTop = '2rem';
