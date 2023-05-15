@@ -5,6 +5,10 @@
   font-family: 'Poppins', sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* MOBILE VERSION */
 @media only screen and (min-width: 375px) {
   #nav-bar-header {
@@ -20,7 +24,6 @@
   }
 
   #menu-navbar {
-    display: none;
     position: fixed;
     width: 100%;
     height: 100%;
@@ -41,20 +44,42 @@
     display: none;
   }
 
+  .experience li {
+    margin-right: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    list-style: none;
+    color: #7a869a;
+  }
+
+  .skill-buttons li {
+    color: #6070ff;
+    padding: 4px 12px;
+    background-color: #ebebff;
+    border: none;
+    border-radius: 8px;
+    border-color: white;
+    outline: none;
+    list-style: none;
+    margin-right: 8px;
+  }
+
   #menu-navbar li {
     margin-top: 40px;
     font-size: 32px;
     font-weight: 600;
-    color: #FFFFFF;
+    color: #fff;
     list-style: none;
   }
-
 
   #menu-navbar li a {
     text-decoration: none;
     font-size: inherit;
-    font-weight:inherit;
-    color:inherit;
+    font-weight: inherit;
+    color: inherit;
     cursor: pointer;
   }
 
@@ -63,8 +88,8 @@
   }
 
   #menu-navbar #cross-btn {
-   display: flex;
-   justify-content: end;
+    display: flex;
+    justify-content: end;
   }
 
   #nav-bar-container {
@@ -241,17 +266,6 @@
     color: #344563 !important;
   }
 
-  .experience li {
-    margin-right: 10px;
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 13px;
-    line-height: 16px;
-    list-style: none;
-    color: #7a869a;
-  }
-
   .skill-buttons {
     margin-top: 16px;
     display: flex;
@@ -266,18 +280,6 @@
     line-height: 24px;
     color: #344563;
     margin-top: 20px;
-  }
-
-  .skill-buttons li {
-    color: #6070ff;
-    padding: 4px 12px;
-    background-color: #ebebff;
-    border: none;
-    border-radius: 8px;
-    border-color: white;
-    outline: none;
-    list-style: none;
-    margin-right: 8px;
   }
 
   .view-project-button {

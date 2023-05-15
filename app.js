@@ -6,6 +6,7 @@ const lists = document.querySelectorAll('#menu-navbar li');
 
 lists.forEach((list) => {
   list.addEventListener('click', () => {
+    navbar.style.display = 'block';
     menuNavbar.style.display = 'none';
   });
 });
@@ -21,7 +22,7 @@ input.addEventListener('blur', (e) => {
 });
 
 navbar.addEventListener('click', () => {
-  navbar.style.display="none";
+  navbar.style.display = 'none';
   if (menuNavbar.style.display === 'none') {
     menuNavbar.style.display = 'block';
   } else {
@@ -30,6 +31,6 @@ navbar.addEventListener('click', () => {
 });
 
 crossBtn.addEventListener('click', () => {
+  navbar.style.display = 'block';
   menuNavbar.style.display = 'none';
-  navbar.style.display="block";
 });
