@@ -549,6 +549,12 @@ html {
     background-color: #2230d2;
     color: #fff;
   }
+
+  .error-msg {
+    margin-top: 12px;
+    display: none;
+    color: red;
+  }
 }
 
 /* DESKTOP VERSION */
