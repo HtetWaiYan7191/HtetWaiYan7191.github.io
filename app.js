@@ -1,4 +1,15 @@
 const input = document.querySelector('input[type="text"]');
+const navbar = document.getElementById('nav-bar');
+const menuNavbar = document.getElementById('menu-navbar');
+const crossBtn = document.getElementById('cross-btn');
+const lists = document.querySelectorAll('#menu-navbar li');
+menuNavbar.style.display = 'none';
+lists.forEach((list) => {
+  list.addEventListener('click', () => {
+    navbar.style.display = 'block';
+    menuNavbar.style.display = 'none';
+  });
+});
 
 input.addEventListener('focus', (e) => {
   e.target.style.backgroundColor = 'black';
@@ -8,4 +19,18 @@ input.addEventListener('focus', (e) => {
 input.addEventListener('blur', (e) => {
   e.target.style.backgroundColor = '';
   e.target.style.color = '';
+});
+
+navbar.addEventListener('click', () => {
+  navbar.style.display = 'none';
+  if (menuNavbar.style.display === 'none') {
+    menuNavbar.style.display = 'block';
+  } else {
+    menuNavbar.style.display = 'none';
+  }
+});
+
+crossBtn.addEventListener('click', () => {
+  navbar.style.display = 'block';
+  menuNavbar.style.display = 'none';
 });
