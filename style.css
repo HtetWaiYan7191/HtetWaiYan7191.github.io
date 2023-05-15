@@ -554,6 +554,9 @@ html {
   display: none; 
   color: red;
 }
+input:invalid {
+  border-color: red;
+}
 }
 
 /* DESKTOP VERSION */
