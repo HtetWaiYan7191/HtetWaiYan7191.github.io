@@ -3,7 +3,7 @@ const navbar = document.getElementById('nav-bar');
 const menuNavbar = document.getElementById('menu-navbar');
 const crossBtn = document.getElementById('cross-btn');
 const lists = document.querySelectorAll('#menu-navbar li');
-
+menuNavbar.style.display = 'none';
 lists.forEach((list) => {
   list.addEventListener('click', () => {
     navbar.style.display = 'block';
