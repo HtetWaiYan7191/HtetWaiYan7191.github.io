@@ -10,7 +10,6 @@ function storeLocalStorage() {
   };
 
   localStorage.setItem('UserData', JSON.stringify(storeData));
-//   console.log(localStorage.getItem('UserData'));
 }
 
 nameInput.addEventListener('input', storeLocalStorage);
@@ -19,7 +18,7 @@ messageBox.addEventListener('input', storeLocalStorage);
 
 const getData = JSON.parse(localStorage.getItem('UserData'));
 
-if (getData != null) {
+if (getData !== null) {
   nameInput.value = getData.name;
   emailInput.value = getData.email;
   messageBox.value = getData.messageBox;
