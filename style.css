@@ -701,18 +701,18 @@ html {
   }
 
   .modal-image {
-    width: 60%;
+    width: 55%;
   }
 
   .button-wrapper {
     justify-content: space-between;
-    margin-top: 1.5rem;
+    margin-top: 1rem;
   }
 
   .pop-up-btn {
     margin-top: 0;
     margin-right: 5px;
-    padding: 5px 12px;
+    padding: 5px 10px;
     border-radius: 16px;
   }
 
