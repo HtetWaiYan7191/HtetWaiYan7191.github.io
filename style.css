@@ -693,7 +693,7 @@ html {
   }
 
   .modal-image {
-    width: 80%;
+    width: 70%;
   }
 
   .button-wrapper {
@@ -834,8 +834,10 @@ html {
   }
 
   figure {
-    width: 50%;
-    margin-top: 0;
+    width: 100%;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
   }
 
   .figure-desktop {
