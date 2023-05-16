@@ -1,3 +1,6 @@
+const openPopButtons = document.querySelectorAll('[data-modal-target]');
+const overlay = document.createElement('div');
+overlay.setAttribute('id', 'overlay');
 const navbar = document.getElementById('nav-bar');
 const menuNavbar = document.getElementById('menu-navbar');
 const crossBtn = document.getElementById('cross-btn');
@@ -12,10 +15,8 @@ lists.forEach((list) => {
   list.addEventListener('click', () => {
     navbar.style.display = 'block';
     menuNavbar.style.display = 'none';
-const openPopButtons = document.querySelectorAll('[data-modal-target]');
-const overlay = document.createElement('div');
-overlay.setAttribute('id', 'overlay');
-document.getElementById('menu-navbar').style.display = "none";
+  });
+});
 
 function createModal(id, title, image, description, skills, liveLink) {
   const sampleTemplateModal = `
