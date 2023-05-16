@@ -1,6 +1,7 @@
 const openPopButtons = document.querySelectorAll('[data-modal-target]');
 const overlay = document.createElement('div');
 overlay.setAttribute('id', 'overlay');
+document.getElementById('menu-navbar').style.display = "none";
 
 function createModal(id, title, image, description, skills, liveLink) {
   const sampleTemplateModal = `
