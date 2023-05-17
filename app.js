@@ -6,9 +6,128 @@ const email = document.querySelector('input[type="email"]');
 const form = document.getElementById('contact-me-form');
 const span = document.getElementById('error-msg');
 const errorMessage = 'The email should be written in lower case';
-const openPopButtons = document.querySelectorAll('[data-modal-target]');
 const overlay = document.createElement('div');
 overlay.setAttribute('id', 'overlay');
+// Worksection created dynamically
+const workSection = document.getElementById('work');
+
+const projects = [
+  {
+    name: 'Tonic',
+    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required',
+    projectImage: './Images/Snapshoot Portfolio.png',
+    technogies: ['HTML', 'CSS', 'Javascript'],
+    projectId: '',
+    buttonId: 'cardOne',
+  },
+
+  {
+    name: 'Multi-Post Stories',
+    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required',
+    projectImage: './Images/Availibity.png',
+    technogies: ['HTML', 'CSS', 'Javascript'],
+    projectId: 'availibity-card',
+    buttonId: 'cardTwo',
+  },
+
+  {
+    name: 'Tonic',
+    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required',
+    projectImage: './Images/gym_fit.png',
+    technogies: ['HTML', 'CSS', 'Javascript'],
+    projectId: '',
+    buttonId: 'cardThree',
+  },
+
+  {
+    name: 'Multi-Post Stories',
+    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required',
+    projectImage: './Images/Snapshoot Portfolio (2).png',
+    technogies: ['HTML', 'CSS', 'Javascript'],
+    projectId: 'projessional-art-card',
+    buttonId: 'cardFour',
+  },
+];
+
+function createProject() {
+  projects.forEach((project) => {
+    const projectSection = document.createElement('section');
+    projectSection.classList.add('project-section');
+    projectSection.setAttribute('id', project.projectId);
+    const imageContainer = document.createElement('figure');
+    imageContainer.classList.add('figure-margin-right');
+    const projectImage = document.createElement('img');
+    projectImage.classList.add('snap-shot-image');
+    projectImage.src = project.projectImage;
+    imageContainer.appendChild(projectImage);
+    projectSection.appendChild(imageContainer);
+    const projectShowing = document.createElement('section');
+    projectShowing.classList.add('project-showing');
+    const title = document.createElement('h2');
+    title.textContent = project.name;
+    projectShowing.appendChild(title);
+    //
+    const experience = document.createElement('ul');
+    experience.classList.add('experience');
+    //
+    const canopyText = document.createElement('li');
+    canopyText.setAttribute('id', 'canopy-text');
+    canopyText.textContent = 'CANOPY';
+    //
+    const counterImg1 = document.createElement('img');
+    counterImg1.classList.add('counter-img');
+    counterImg1.src = './Images/Counter.png';
+    //
+    const counterImg2 = document.createElement('img');
+    counterImg2.classList.add('counter-img');
+    counterImg2.src = './Images/Counter.png';
+    //
+    const projectLi = document.createElement('li');
+    projectLi.textContent = 'Back End Dev';
+    //
+    const year = document.createElement('li');
+    year.textContent = 2015;
+    experience.appendChild(canopyText);
+    experience.appendChild(counterImg1);
+    experience.appendChild(projectLi);
+    experience.appendChild(counterImg2);
+    experience.appendChild(year);
+    projectShowing.appendChild(experience);
+    //
+    const infoText = document.createElement('p');
+    infoText.classList.add('info-text');
+    infoText.textContent = project.description;
+    projectShowing.appendChild(infoText);
+    //
+    const skillButton = document.createElement('ul');
+    skillButton.classList.add('skill-buttons');
+    for (let i = 0; i < project.technogies.length; i += 1) {
+      const skill = document.createElement('li');
+      skill.textContent = project.technogies[i];
+      skillButton.appendChild(skill);
+    }
+    projectShowing.appendChild(skillButton);
+    //
+    const buttonContainer = document.createElement('div');
+    let j = 1;
+    buttonContainer.classList.add('view-project-button');
+    buttonContainer.setAttribute('id', j);
+    j += 1;
+    //
+    const projectBtn = document.createElement('button');
+    projectBtn.setAttribute('data-modal-target', '#project-pop-up');
+    projectBtn.setAttribute('id', project.buttonId);
+    projectBtn.textContent = 'See Project';
+    //
+    buttonContainer.appendChild(projectBtn);
+    projectShowing.appendChild(buttonContainer);
+    //
+    projectSection.appendChild(projectShowing);
+    workSection.appendChild(projectSection);
+  });
+}
+createProject();
+const openPopButtons = document.querySelectorAll('[data-modal-target]');
 
 menuNavbar.style.display = 'none';
 lists.forEach((list) => {
