@@ -695,7 +695,7 @@ html {
   }
 
   .modal {
-    width: 63%;
+    /* width: 63%; */
     padding: 10px 20px;
     border-radius: 16px;
   }
