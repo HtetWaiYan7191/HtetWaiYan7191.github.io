@@ -340,7 +340,7 @@ html {
     font-size: 15px;
     line-height: 24px;
     color: #344563;
-    padding: 0px 10px;
+    padding: 0 10px;
   }
 
   .view-project-button {
@@ -719,6 +719,7 @@ html {
 
   .info-skill-container {
     display: flex;
+
     /* align-items: center; */
     padding-bottom: 3.938rem;
   }
