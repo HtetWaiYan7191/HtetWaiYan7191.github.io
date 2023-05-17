@@ -24,6 +24,7 @@ html {
   }
 
   #menu-navbar {
+    /* display: none; */
     position: fixed;
     width: 100%;
     height: 100%;
@@ -43,6 +44,17 @@ html {
 
   .invisible-display {
     display: none;
+  }
+
+  .modal-experience li {
+    margin-right: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    list-style: none;
+    color: #7a869a;
   }
 
   .experience li {
@@ -74,6 +86,19 @@ html {
     font-weight: 600;
     color: #fff;
     list-style: none;
+  }
+
+  .header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .button-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
   }
 
   #menu-navbar li a {
@@ -223,6 +248,12 @@ html {
     background-color: #fff;
   }
 
+  .modal-project-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
   figure {
     margin: 10px auto;
   }
@@ -231,14 +262,22 @@ html {
     width: 100%;
   }
 
-  .snap-shot-image:hover {
+  .modal-image {
+    width: 100%;
+  }
+
+  /* .snap-shot-image:hover {
     transform: scale(1.1);
     translate: -20px;
     transition: all 0.5s ease-in 0s;
-  }
+  } */
 
   .project-showing {
     padding: 0 20px;
+  }
+
+  .modal-project-showing {
+    /* border-radius: 16px; */
   }
 
   .project-showing h2 {
@@ -258,6 +297,13 @@ html {
     margin-top: 20px;
   }
 
+  .modal-experience {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 15px;
+  }
+
   #canopy-text {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -273,6 +319,10 @@ html {
     justify-content: start;
   }
 
+  .modal-skill-buttons {
+    margin-top: 15px;
+  }
+
   .info-text {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -283,12 +333,87 @@ html {
     margin-top: 20px;
   }
 
+  .modal-text {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #344563;
+    padding: 0 10px;
+  }
+
   .view-project-button {
     margin-top: 25px;
+    margin-right: 0.8rem;
   }
 
   .counter-img {
     margin-right: 12px;
+  }
+
+  .see-btn {
+    font-size: 15px;
+    color: #396df2;
+    background-color: #fff;
+    border-color: #396df2;
+    padding: 10px 8px;
+    border-radius: 16px;
+  }
+
+  #test {
+    position: fixed;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: 200ms ease-in-out;
+    z-index: 10;
+    background-color: #fff;
+    border-radius: 16px;
+  }
+
+  .modal {
+    padding: 10px 20px;
+  }
+
+  /* #project-pop-up.active {
+    transform: translate(-50%,-50%) scale(1);
+  } */
+
+  #test.active {
+    transform: translate(-33%, -50%) scale(1);
+  }
+
+  #overlay {
+    position: fixed;
+    z-index: 9;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    pointer-events: none;
+  }
+
+  #overlay.active {
+    opacity: 1;
+    pointer-events: all;
+  }
+
+  .pop-up-btn {
+    display: flex;
+    margin-top: 0.5rem;
+
+    /* margin: right 0.5em; */
+  }
+
+  .pop-up-btn span {
+    margin-right: 5px;
+  }
+
+  .pop-up-btn img {
+    align-self: center;
   }
 
   .view-project-button button {
@@ -570,6 +695,40 @@ html {
     z-index: 4;
   }
 
+  .modal {
+    /* width: 63%; */
+    padding: 10px 20px;
+    border-radius: 16px;
+  }
+
+  .modal-image {
+    width: 100%;
+  }
+
+  .button-wrapper {
+    justify-content: space-between;
+    margin-top: 1rem;
+  }
+
+  .pop-up-btn {
+    margin-top: 0;
+    margin-right: 5px;
+    padding: 5px 10px;
+    border-radius: 16px;
+  }
+
+  .info-skill-container {
+    display: flex;
+
+    /* align-items: center; */
+    padding-bottom: 3.938rem;
+  }
+
+  .skill-button-container {
+    display: flex;
+    flex-direction: column;
+  }
+
   #union-img {
     display: none;
   }
@@ -686,7 +845,14 @@ html {
   }
 
   figure {
-    width: 50%;
+    width: 100%;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .figure-desktop {
+    width: 100%;
   }
 
   .figure-margin-right {
