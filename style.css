@@ -950,6 +950,10 @@ html {
     margin-top: 23px;
   }
 
+  .project-screenshot {
+    text-decoration: none;
+  }
+
   /* ABOUT MYSELF SECTION START  */
 
   #contact-me-header {

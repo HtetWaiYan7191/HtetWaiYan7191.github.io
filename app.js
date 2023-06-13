@@ -15,7 +15,7 @@ const projects = [
   {
     name: 'Tonic',
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required',
-    projectImage: './Images/Snapshoot Portfolio.png',
+    projectImage: './Images/awesomeBook.png',
     technogies: ['HTML', 'CSS', 'Javascript'],
     projectId: '',
     buttonId: 'cardOne',
@@ -24,7 +24,7 @@ const projects = [
   {
     name: 'Multi-Post Stories',
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required',
-    projectImage: './Images/Availibity.png',
+    projectImage: './Images/techInnovation.png',
     technogies: ['HTML', 'CSS', 'Javascript'],
     projectId: 'availibity-card',
     buttonId: 'cardTwo',
@@ -161,7 +161,7 @@ form.addEventListener('submit', (e) => {
   }
 });
 
-function createModal(id, title, image, description, skills, liveLink) {
+function createModal(id, title, image, description, skills, liveLink, sourceCode) {
   const sampleTemplateModal = `
 <div id="#" class="">
 <section class="project-sectiona modal-project-section">
@@ -193,14 +193,14 @@ function createModal(id, title, image, description, skills, liveLink) {
                 <li>${skills[2]}</li>
               </ul>
               <div class="button-wrapper">
-                  <button class="pop-up-btn see-btn">
+              <a href="${liveLink}" class="project-screenshot"><button class="pop-up-btn see-btn">
                   <span>See Live</span>
-                  <a href="${liveLink}"><img src="./Images/Icon.png" alt=""></a>
-                  </button>
-                  <button class="pop-up-btn see-btn">
+                  <img src="./Images/Icon.png" alt="">
+                  </button></a>
+                  <a href="${sourceCode}" class="project-screenshot">  <button class="pop-up-btn see-btn">
                   <span>See Source</span>
-                      <a href="${liveLink}"> <img src="./Images/Vector.png" alt=""></a>
-                  </button>
+                     <img src="./Images/Vector.png" alt="">
+                  </button></a>
               </div>
           </div>
       </div>
@@ -216,19 +216,21 @@ const projectCard = {
   cardOne: {
     id: 1,
     title: 'Tonic',
-    image: './Images/Snapshoot Portfolio.png',
+    image: './Images/AwesomeBook.png',
     description: " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     skills: ['HTML', 'CSS', 'JavaScript'],
-    liveLink: '#/',
+    liveLink: 'https://htetwaiyan7191.github.io/awesome-books-project/',
+    sourceCode: 'https://github.com/HtetWaiYan7191/awesome-books-project',
   },
 
   cardTwo: {
     id: 2,
     title: 'Multi-Post Stories',
-    image: './Images/Availibity.png',
+    image: './Images/techInnovation.png',
     description: " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     skills: ['HTML', 'CSS', 'JavaScript'],
-    liveLink: '#/',
+    liveLink: 'https://htetwaiyan7191.github.io/capstone-project/',
+    sourceCode: 'https://github.com/HtetWaiYan7191/capstone-project',
   },
 
   cardThree: {
@@ -238,6 +240,7 @@ const projectCard = {
     description: " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     skills: ['HTML', 'CSS', 'JavaScript'],
     liveLink: '#/',
+    sourceCode: '#/',
   },
 
   cardFour: {
@@ -247,6 +250,7 @@ const projectCard = {
     description: " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     skills: ['HTML', 'CSS', 'JavaScript'],
     liveLink: '#/',
+    sourceCode: '#/',
   },
 };
 
@@ -267,7 +271,7 @@ openPopButtons.forEach((button) => {
     const name = e.target.id;
     const prefix = projectCard[name];
     const modal = createModal(prefix.id, prefix.title,
-      prefix.image, prefix.description, prefix.skills, prefix.liveLink);
+      prefix.image, prefix.description, prefix.skills, prefix.liveLink, prefix.sourceCode);
     const element = document.createElement('div');
     element.innerHTML = modal;
     element.classList.add('modal');
